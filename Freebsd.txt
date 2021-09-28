@@ -1,0 +1,3 @@
+Freebsd
+mount_smbfs -E koi8-r:cp866 -I 172.16.2.44 -W //guest@nas/BackUP /mnt/set
+
