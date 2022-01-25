@@ -1,0 +1,27 @@
+[
+  {
+    displayName: 'Панель управления',
+    path: '/',
+    icon: DashboardTwoToneIcon,
+  },
+  {
+    displayName: 'Центр сертификации',
+    path: '/ca',
+    icon: SecurityIcon,
+  },
+  {
+    displayName: 'Доменная инфраструктура',
+    path: '/domain',
+    icon: StorageIcon,
+  },
+  {
+    displayName: 'Субъекты аутентификации',
+    path: '/subjects',
+    icon: GridViewIcon,
+  },
+  {
+    displayName: 'Журнал аудита',
+    path: '/logs',
+    icon: TextSnippetIcon,
+  },
+];
