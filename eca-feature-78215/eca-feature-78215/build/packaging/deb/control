@@ -1,7 +1,0 @@
-Package: aeca
-Architecture: amd64
-Maintainer: Aladdin R.D. <aladdin@aladdin-rd.ru>
-Priority: optional
-Version: 1.0.0.0
-Description: Aladdin Enterprise Certificate Authority. Only for internal testing purposes.
-Depends: bash, sed
