@@ -1,0 +1,90 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 330px;
+    background-color: #414042;
+    color: #9C9C9C;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        padding-left: 40px;
+        height: 70px;
+        border-top: 1px #58595B solid;
+        border-bottom: 1px #58595B solid;
+        background-color: inherit;
+
+        &>a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.active {
+    background-color: #6D6E71;
+}
+
+.icon {
+    margin-right: 10px;
+    color: #9C9C9C;
+    background-color: inherit;
+}
+
+.menuOpen {
+    min-width: 330px;
+    transition: min-width 600ms ease;
+    transition-delay: 0s;
+}
+
+.menuClosed {
+    min-width: 110px;
+    transition: min-width 600ms ease
+}
+
+.menuToggle {
+    border-radius: 50%;
+    border: none;
+    width: 44px;
+    height: 44px;
+    background-color: #353436;
+    color: white;
+    padding: 0;
+}
+
+.menuToggleWrapper {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.hideLink {
+    display: none;
+}
+
+.link {
+    color: #9C9C9C;
+    text-decoration: none;
+}
+
+.test {
+    white-space: nowrap ;
+    text-decoration: none;
+}
+
+.test2 {
+    background-color: #6D6E71;
+    text-decoration: none;
+    color: white;
+
+    & > div > svg  {
+        color:white;
+    }
+
+    & > div > div > span  {
+        color:white;
+    }
+}

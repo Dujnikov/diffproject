@@ -1,0 +1,1 @@
+sudo curl -v -k --key /etc/httpd/certs/client.key --cert /etc/httpd/certs/client.crt --CApath /etc/httpd/certs/ --url https://localhost.localdomain.com:443
