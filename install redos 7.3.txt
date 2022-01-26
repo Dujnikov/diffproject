@@ -1,0 +1,13 @@
+dnf install postgresql-server
+postgresql-setup --initdb --unit postgresql
+systemctl enable postgresql
+su - postgres
+psql
+
+Preparing database localhost:5432/aecatest, using DB user aeca, who should have privileges to do that
+Create new tables...
+psql: error: FATAL:  Ident authentication failed for user "aeca"
+Create new tables in database localhost:5432/aecatest, using DB user aeca, who should have privileges to do that
+Done.
+Create new indexes...
+psql: error: FATAL:  Ident authentication failed for user "aeca"
